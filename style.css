@@ -55,6 +55,7 @@ This resets default padding, margin, and sets box-sizing for better control over
 
 .my-image {
     /* Styling for the image container */
+    position: relative;
     border: 2px solid green; /* Adds a green border around the image container */
     width: 50%; /* Makes the image container take up half the 'about-intro' section */
 }
@@ -64,8 +65,8 @@ This resets default padding, margin, and sets box-sizing for better control over
     position: absolute; /* Allows fine control of the image's position */
     left: 6%; /* Moves the image slightly right within the container */
     top: -8%; /* Moves the image up so it overlaps the border slightly */
-    width: 350px; /* Sets a specific width for the image */
-    height: 400px; /* Sets a specific height for the image */
+    width: 90%; /* Sets a specific width for the image */
+    height: 95%; /* Sets a specific height for the image */
     object-fit: cover; /* Ensures the image fills the area without distortion */
 }
 
