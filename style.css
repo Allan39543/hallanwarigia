@@ -8,6 +8,11 @@ This resets default padding, margin, and sets box-sizing for better control over
     box-sizing: border-box; /* Includes padding and border in element's width/height, making layout easier to control */
 }
 
+body{
+
+    font-family: "Montserrat", serif;
+}
+
 .main-header {
     /* Styles for the header area of the page */
     height: 100px; /* Sets the header height to 100 pixels */
@@ -46,8 +51,8 @@ This resets default padding, margin, and sets box-sizing for better control over
     /* Styles for the section holding the user's image and intro content */
     position: relative; /* Allows precise control over positioning of child elements */
     display: flex; /* Flexbox layout places items (image and text) side-by-side */
-    width: 60%; /* 60% of the main container width */
-    height: 70vh; /* 70% of the viewport height */
+    width: 70%; /* 60% of the main container width */
+    height: 80vh; /* 70% of the viewport height */
     background: #f3f3f3; /* Light gray background for the intro section */
     margin: auto; /* Centers the section horizontally within its container */
     top: 10%; /* Moves the section slightly down from the top of its container */
@@ -56,7 +61,6 @@ This resets default padding, margin, and sets box-sizing for better control over
 .my-image {
     /* Styling for the image container */
     position: relative;
-    border: 2px solid green; /* Adds a green border around the image container */
     width: 50%; /* Makes the image container take up half the 'about-intro' section */
 }
 
@@ -72,6 +76,35 @@ This resets default padding, margin, and sets box-sizing for better control over
 
 .about-content {
     /* Styles for the section that will contain user information */
-    border: 2px solid brown; /* Adds a brown border around the content area */
     width: 50%; /* Takes up the remaining half of 'about-intro' */
+    padding: 1em;
+}
+
+.about-content h1{
+
+    font-size: 3.2em;
+    font-weight: 500;
+    color: #333;
+
+
+}
+
+.about-content p{
+
+    font-size: 1.2em;
+    margin-top: 5%;
+    line-height: 1.6;
+    text-align: justify;
+    margin-bottom: 7%;
+}
+
+.about-content a{
+
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2em;
+    border: 2px solid #d9b737;
+    font-weight: 500;
+    padding: 1em;
+    
 }
