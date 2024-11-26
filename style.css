@@ -44,7 +44,7 @@ body{
     /* Main section styles */
     height: 100vh; /* Makes the section full height of the viewport */
     width: 100%; /* Full width of the viewport */
-    background: #d9b737; /* Light yellow background color */
+    background: #bfbfbf; /* Light yellow background color */
 }
 
 .about-intro {
@@ -107,4 +107,38 @@ body{
     font-weight: 500;
     padding: 1em;
     
+}
+
+@media only screen and (max-width: 768px) {
+
+
+
+    .about-intro{
+
+        width: 90%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .about-content {
+
+        width: 100%;
+
+    }
+
+    .about-content h1{
+
+        font-size: 2em;
+    }
+
+    .about-content p{
+        font-size: 1em;
+    }
+
+    .my-image{
+        
+        height: 50vh;
+        width: 100%;
+    }
+
 }
